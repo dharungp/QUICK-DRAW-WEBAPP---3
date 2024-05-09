@@ -1,0 +1,69 @@
+body{
+    background-color:black;
+    color:white;
+}
+h1{
+    background-color:white;
+}
+span{
+    font-size: 20px; float: left;
+    padding-left: 10px;
+
+}
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:dodgerblue;
+  background-color: cornsilk;
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal
+}
+
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span,h4
+  {
+    padding-top:2px;
+    font-size:25px;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight:400px;
+    font-style: normal
+    
+  }
+#show_sketch{
+  border: blue 2px solid;
+  background-color: whitesmoke;
+  color: blue;
+  transition: 0.3s;
+  float: right;
+}
+
+#show_sketch:hover{
+  border: blue 2px solid;
+  background-color: blue;
+  color: white;
+  transform: translateY(-5px);
+  
+}
